@@ -1,0 +1,39 @@
+{
+  "name": "Sargo Staking",
+  "short_name": "SargoStake",
+  "theme_color": "#FF6C36",
+  "manifest": "/manifest.json",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "id": "sargo-staking",
+  "display": "standalone",
+  "description": "A demo staking application for Sargo tokens with offline support",
+  "icons": [
+    {
+      "purpose": "any",
+      "sizes": "192x192",
+      "src": "sargo-icon-192.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "128x128",
+      "src": "sargo-logo.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "sargo-icon-512.png",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
